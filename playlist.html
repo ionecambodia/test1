@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel="stylesheet" href="playlist.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <video id="main-video"  src="https://bigf.bigo.sg/asia_live/V4s6/2JcqrU.mp4" controls autoplay></video>
+            <p id="main-title">Build a To-Do List Using React</p>
+        </div>
+        <div class="child2">
+            <div class="videos" onclick="playVideo('https://bigf.bigo.sg/asia_live/V4s6/2VpL8E.mp4','Comparison Operators in MongoDB')">
+                <video src="https://bigf.bigo.sg/asia_live/V4s6/2VpL8E.mp4"></video>
+                <p>Comparison Operators in MongoDB</p>
+            </div>
+            <div class="videos" onclick="playVideo('videos/HTML FORM.mp4','Connecting Database to HTML Form')">
+                <video src="videos/HTML FORM.mp4" poster="HTML FORM.png"></video>
+                <p>Connecting Database to HTML Form</p>
+            </div>
+            <div class="videos" onclick="playVideo('videos/InShot_20240114_140535287.mp4','Building a Video Search Bar with Instant Results')">
+                <video src="videos/InShot_20240114_140535287.mp4"></video>
+                <p>Building a Video Search Bar with Instant Results</p>
+            </div>
+            <div class="videos" onclick="playVideo('/videos/MongoDB Functions.mp4','MongoDB Functions')">
+                <video src="/videos/MongoDB Functions.mp4"></video>
+                <p>MongoDB Functions</p>
+            </div>
+            <div class="videos" onclick="playVideo('videos/Popup Using Toaster (Clipchamp).mp4','Send Custom Popup Messages to Users')">
+                <video src="videos/Popup Using Toaster (Clipchamp).mp4"></video>
+                <p>Send Custom Popup Messages to Users</p>
+            </div>
+            <div class="videos" onclick="playVideo('/videos/Regular Expressions in MongoDB.mp4','Regular Expressions in MongoDB')">
+                <video src="/videos/Regular Expressions in MongoDB.mp4"></video>
+                <p>Regular Expressions in MongoDB</p>
+            </div>
+            <div class="videos" onclick="playVideo('/videos/sharing content to whatsapp - Made with Clipchamp.mp4','Redirecting to Whatsapp')">
+                <video src="/videos/sharing content to whatsapp - Made with Clipchamp.mp4"></video>
+                <p>Redirecting to Whatsapp</p>
+            </div>
+            <div class="videos" onclick="playVideo('/videos/Show_Hide Password - Made with Clipchamp.mp4','Show or Hide Password Using React')">
+                <video src="/videos/Show_Hide Password - Made with Clipchamp.mp4"></video>
+                <p>Show or Hide Password Using React</p>
+            </div>
+            <div class="videos" onclick="playVideo('/videos/solveGitError.mp4','Solve this Git Error')">
+                <video src="/videos/solveGitError.mp4"></video>
+                <p>Solve this Git Error</p>
+            </div>
+        </div>
+    </div>
+    <script src="playlist.js"></script>
+</body>
+</html>
